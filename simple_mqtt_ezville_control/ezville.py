@@ -274,6 +274,7 @@ def ezville_loop(config):
             # MQTT 인 경우 모든 Topic 구독
             else:
                 client.subscribe([(HA_TOPIC + '/#', 0), (EW11_TOPIC + '/recv', 0), (EW11_TOPIC + '/send', 1), ('homeassistant/status', 0)])
+                log('else')
         else:
             errcode = {1: 'Connection refused - incorrect protocol version',
                        2: 'Connection refused - invalid client identifier',
