@@ -446,10 +446,10 @@ def ezville_loop(config):
                                     curT = str(int(packet[18 + 4 * rid:20 + 4 * rid], 16))
 
                                     if int(setT) > 127:
-                					    setT = str(int(setT) + 0.5 - 128)
+                                        setT = str(int(setT) + 0.5 - 128)
 
                                     if int(curT) > 127:
-                					    curT = str(int(curT) + 0.5 - 128)                 
+                                        curT = str(int(curT) + 0.5 - 128)                 
                                     
                                     if onoff_state[8 - rid ] == '1':
                                         onoff = 'heat'
