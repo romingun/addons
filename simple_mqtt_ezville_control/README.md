@@ -8,7 +8,7 @@
 
 ## 2. 설치 방법
 
-  - 애드온 스토어 -> 저장소 -> [https://github.com/ktdo79/addons](https://github.com/ktdo79/addons) 추가하기 
+  - 애드온 스토어 -> 저장소 -> [https://github.com/romingun/addons](https://github.com/romingun/addons) 추가하기 
   - MQTT 기반 Simple EzVille Wallpad Control 설치
 
 > 사전에 MQTT Integration 및 Mosquitto Broker Addon 설치 필수
